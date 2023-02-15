@@ -1,17 +1,30 @@
 header {
+    display: flex;
+    justify-content: space-between;
     background-color:#a4b691;
     max-width: 100%;
-    max-height: 5%;
+    max-height: 10%;
+    padding: 2% 0 2% 0;
+    
 }
 
 h1 {
     margin-left: 5%;
 }
 
+.menu-box {
+    flex: 1 0 150px;
+    justify-content: space-around;
+    padding: 10px;
+    text-align:center;
+    border-style: solid;
+    border-width: 1px;
+  }
+
 nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
+    list-style: none;
 }
 
 #Toby-image {
