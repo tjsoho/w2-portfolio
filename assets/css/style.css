@@ -5,27 +5,27 @@ header {
     max-width: 100%;
     max-height: 10%;
     padding: 2% 0 2% 0;
-    
 }
+
+ul {
+    display: flex;
+    flex-basis: 70%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu-box {
+    flex: 1 0 150px;
+    padding: 2px;
+    text-align:center;
+    border-style: solid;
+    text-decoration: white;
+  }
 
 h1 {
     margin-left: 5%;
 }
 
-.menu-box {
-    flex: 1 0 150px;
-    justify-content: space-around;
-    padding: 10px;
-    text-align:center;
-    border-style: solid;
-    border-width: 1px;
-  }
-
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
 
 #Toby-image {
     margin-top: 2%;
@@ -39,3 +39,11 @@ nav ul {
 main {
     margin-left: 4%;
 }
+
+.vl {
+    border-left: 6px solid rgba(27, 83, 27, 0.564);
+    height: 500px;
+    left: 50%;
+    margin-left: 20%;
+    top: 0;
+    }
